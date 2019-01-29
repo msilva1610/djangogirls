@@ -35,6 +35,6 @@ git status
 
 git add --all .
 git add .
-
+git commit -m "first commit"
 git remote add origin https://github.com/msilva1610/djangogirls.git
 git push -u origin master
