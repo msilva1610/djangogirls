@@ -4,7 +4,11 @@ python3 -m venv myvenv
 source /myvenv/bin/activate
 deatectivate
 
+## Django
+
 pip install django
+
+python -m django --version
 
 pip freeze > requirements.txt
 pip install -r requirements.txt
@@ -24,6 +28,8 @@ python manage.py migrate blog
 
 python manage.py runserver
 python manage.py createsuperuser
+
+## git
 
 git init
 
