@@ -38,3 +38,15 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/msilva1610/djangogirls.git
 git push -u origin master
+
+
+## Queryset
+
+python manage.py shell
+from blog.models import Post
+Post.objects.all()
+Post.objects.create(author=me, title='Sample title', text='Test')
+
+Vai dar erro. Não tem ainda o objeto me
+
+from django.contrib.auth.models import User
