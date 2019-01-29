@@ -24,3 +24,17 @@ python manage.py migrate blog
 
 python manage.py runserver
 python manage.py createsuperuser
+
+git init
+
+opcional:
+$ git config --global user.name "Seu Nome"
+$ git config --global user.email voce@exemplo.com
+
+git status
+
+git add --all .
+git add .
+
+git remote add origin https://github.com/msilva1610/djangogirls.git
+git push -u origin master
