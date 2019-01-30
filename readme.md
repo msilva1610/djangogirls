@@ -29,6 +29,10 @@ python manage.py migrate blog
 python manage.py runserver
 python manage.py createsuperuser
 
+## Carregando dados
+
+python manage.py loaddata fixtures.json
+
 ## git
 
 git init
