@@ -17,6 +17,7 @@ pip install -r requirements.txt
 django-admin startproject mysite .
 
 python manage.py migrate
+
 python manage.py runserver
 
 python manage.py startapp blog
